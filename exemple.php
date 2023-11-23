@@ -10,3 +10,20 @@ $c = 1.234;
 $d = 5.4E3;
 $e = 7e-8;
 
+// Сравнения числовых переменных ( > < == >= <= != )
+$x = 10;
+$y = 20;
+
+var_dump($x > $y);
+var_dump($x < $y);
+var_dump($x == $y);
+
+$x = 10;
+$y = 10;
+
+var_dump($x > $y);
+var_dump($x < $y);
+var_dump($x == $y);
+var_dump($x != $y);
+var_dump($x >= $y);
+var_dump($x <= $y);
